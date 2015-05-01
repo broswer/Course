@@ -1,6 +1,8 @@
 package Human;
 
 public class Human {
+	
+	public static int numberOfHumans;
 	public int age;
 	public String name;
 	public void introduce(){
@@ -16,7 +18,7 @@ public class Human {
 	public Human(String givenName){
 		age = 6;
 		name = givenName;
-		
+		numberOfHumans++;
 	}
 	
 	public void change(int age){

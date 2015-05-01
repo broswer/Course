@@ -21,6 +21,9 @@ public class HumanMain {
 		amanda.introduce();
 		amanda.change(10);
 		amanda.introduce();
+		int kids = Human.numberOfHumans;//could use amanda.num... but would misleading the concept
+		System.out.println("Total number is: "+kids);
+		
 	}
 
 }
